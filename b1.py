@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import telebot
 
-bot = telebot.TeleBot('830513665:AAHyoUAo4LTUeUOR9iciTfLJ-aZpbxebv9I')
+bot = telebot.TeleBot('+_+')
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
