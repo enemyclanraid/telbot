@@ -16,6 +16,8 @@ def text_handler(message):
         bot.send_message(chat_id, 'Привет, я бот - парсер хабра.')
     elif text == "как дела?":
         bot.send_message(chat_id, 'Хорошо, а у тебя?')
+    elif text == "хочу":
+    bot.send_message(chat_id, 'Хорошо, данные занесены..')
     else:
         bot.send_message(chat_id, 'Простите, я ваc не понял :(, хотите занести ответ в базу?')
 
