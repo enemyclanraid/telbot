@@ -19,6 +19,6 @@ def text_handler(message):
     elif text == "хочу":
     bot.send_message(chat_id, 'Хорошо, данные занесены..')
     else:
-        bot.send_message(chat_id, 'Простите, я ваc не понял :(, хотите занести ответ в базу?')
+        bot.send_message(chat_id, 'Простите, я ваc не понял :(, хотите занести ответ в базу??')
 
 bot.polling()
